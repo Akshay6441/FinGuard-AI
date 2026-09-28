@@ -1,0 +1,1351 @@
+[
+  {
+    "vendor": "Apple Store Fifth Ave",
+    "invoice_no": "INV-2026-8491",
+    "date": "2026-01-14",
+    "items": [
+      {
+        "desc": "MacBook Pro 14 M3 Chip",
+        "qty": 1,
+        "price": 1999.0,
+        "total": 1999.0
+      },
+      {
+        "desc": "USB-C Power Adapter 96W",
+        "qty": 1,
+        "price": 79.0,
+        "total": 79.0
+      }
+    ],
+    "subtotal": 2078.0,
+    "tax": 171.44,
+    "total": 2249.44,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_DEMO_01_MATCH",
+    "filename": "inv_01_apple_exact_match.png",
+    "matched_txn": "TXN_0000001",
+    "skew": 0.0,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Best Buy Electronics",
+    "invoice_no": "INV-2026-9102",
+    "date": "2026-01-18",
+    "items": [
+      {
+        "desc": "Sony 65 Inch 4K OLED TV",
+        "qty": 1,
+        "price": 1499.0,
+        "total": 1499.0
+      },
+      {
+        "desc": "HDMI 2.1 Ultra High Speed Cable",
+        "qty": 2,
+        "price": 29.99,
+        "total": 59.98
+      }
+    ],
+    "subtotal": 1558.98,
+    "tax": 128.62,
+    "total": 1687.6,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_DEMO_02_MISMATCH_AMOUNT",
+    "filename": "inv_02_bestbuy_amount_mismatch.png",
+    "matched_txn": "TXN_0000002",
+    "skew": -1.5,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Delta Airlines",
+    "invoice_no": "INV-2025-1144",
+    "date": "2025-11-20",
+    "items": [
+      {
+        "desc": "Roundtrip Flight NYC-SFO Comfort+",
+        "qty": 1,
+        "price": 620.0,
+        "total": 620.0
+      },
+      {
+        "desc": "Checked Baggage Fee",
+        "qty": 1,
+        "price": 35.0,
+        "total": 35.0
+      }
+    ],
+    "subtotal": 655.0,
+    "tax": 49.12,
+    "total": 704.12,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_DEMO_03_STALE_DATE",
+    "filename": "inv_03_delta_stale_date.png",
+    "matched_txn": "TXN_0000003",
+    "skew": 1.2,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Apex Shell Holdings LLC",
+    "invoice_no": "INV-2026-4401",
+    "date": "2026-01-22",
+    "items": [
+      {
+        "desc": "Consulting & IT Procurement Services",
+        "qty": 1,
+        "price": 1850.0,
+        "total": 1850.0
+      }
+    ],
+    "subtotal": 1850.0,
+    "tax": 0.0,
+    "total": 1850.0,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_DEMO_04_GHOST_VENDOR",
+    "filename": "inv_04_ghost_vendor.png",
+    "matched_txn": "TXN_0000004",
+    "skew": 0.0,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Micro Center",
+    "invoice_no": "INV-2026-7731",
+    "date": "2026-01-25",
+    "items": [
+      {
+        "desc": "NVIDIA RTX 4080 Super GPU",
+        "qty": 1,
+        "price": 999.0,
+        "total": 999.0
+      },
+      {
+        "desc": "Corsair 32GB DDR5 RAM",
+        "qty": 1,
+        "price": 139.99,
+        "total": 139.99
+      }
+    ],
+    "subtotal": 1138.99,
+    "tax": 93.97,
+    "total": 1307.96,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_DEMO_05_TAMPERED_TAX",
+    "filename": "inv_05_tampered_tax.png",
+    "matched_txn": "TXN_0000005",
+    "skew": -0.8,
+    "tamper_tax": true
+  },
+  {
+    "vendor": "Walmart Supercenter",
+    "invoice_no": "INV-2026-B1001",
+    "date": "2026-01-02",
+    "items": [
+      {
+        "desc": "Procurement Item #1",
+        "qty": 1,
+        "price": 63.5,
+        "total": 63.5
+      }
+    ],
+    "subtotal": 63.5,
+    "tax": 5.08,
+    "total": 68.58,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_01",
+    "filename": "inv_bench_01.png",
+    "matched_txn": "TXN_0000001",
+    "skew": -0.4,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Trader Joe's",
+    "invoice_no": "INV-2026-B1002",
+    "date": "2026-01-03",
+    "items": [
+      {
+        "desc": "Procurement Item #2",
+        "qty": 1,
+        "price": 82.0,
+        "total": 82.0
+      }
+    ],
+    "subtotal": 82.0,
+    "tax": 6.56,
+    "total": 88.56,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_02",
+    "filename": "inv_bench_02.png",
+    "matched_txn": "TXN_0000002",
+    "skew": 0.0,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Delta Airlines",
+    "invoice_no": "INV-2026-B1003",
+    "date": "2026-01-04",
+    "items": [
+      {
+        "desc": "Procurement Item #3",
+        "qty": 1,
+        "price": 100.5,
+        "total": 100.5
+      }
+    ],
+    "subtotal": 100.5,
+    "tax": 8.04,
+    "total": 108.54,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_03",
+    "filename": "inv_bench_03.png",
+    "matched_txn": "TXN_0000003",
+    "skew": 0.4,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Marriott Hotels",
+    "invoice_no": "INV-2026-B1004",
+    "date": "2026-01-05",
+    "items": [
+      {
+        "desc": "Procurement Item #4",
+        "qty": 1,
+        "price": 119.0,
+        "total": 119.0
+      }
+    ],
+    "subtotal": 119.0,
+    "tax": 9.52,
+    "total": 128.52,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_04",
+    "filename": "inv_bench_04.png",
+    "matched_txn": "TXN_0000004",
+    "skew": 0.8,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "B&H Photo Video",
+    "invoice_no": "INV-2026-B1005",
+    "date": "2026-01-06",
+    "items": [
+      {
+        "desc": "Procurement Item #5",
+        "qty": 1,
+        "price": 137.5,
+        "total": 137.5
+      }
+    ],
+    "subtotal": 137.5,
+    "tax": 11.0,
+    "total": 148.5,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_05",
+    "filename": "inv_bench_05.png",
+    "matched_txn": "TXN_0000005",
+    "skew": -0.8,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Kroger Supermarket",
+    "invoice_no": "INV-2026-B1006",
+    "date": "2026-01-07",
+    "items": [
+      {
+        "desc": "Procurement Item #6",
+        "qty": 1,
+        "price": 156.0,
+        "total": 156.0
+      }
+    ],
+    "subtotal": 156.0,
+    "tax": 12.48,
+    "total": 168.48,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_06",
+    "filename": "inv_bench_06.png",
+    "matched_txn": "TXN_0000006",
+    "skew": -0.4,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Starbucks Coffee",
+    "invoice_no": "INV-2026-B1007",
+    "date": "2026-01-08",
+    "items": [
+      {
+        "desc": "Procurement Item #7",
+        "qty": 1,
+        "price": 174.5,
+        "total": 174.5
+      }
+    ],
+    "subtotal": 174.5,
+    "tax": 13.96,
+    "total": 188.46,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_07",
+    "filename": "inv_bench_07.png",
+    "matched_txn": "TXN_0000007",
+    "skew": 0.0,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Zara Retail",
+    "invoice_no": "INV-2026-B1008",
+    "date": "2026-01-09",
+    "items": [
+      {
+        "desc": "Procurement Item #8",
+        "qty": 1,
+        "price": 193.0,
+        "total": 193.0
+      }
+    ],
+    "subtotal": 193.0,
+    "tax": 15.44,
+    "total": 208.44,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_08",
+    "filename": "inv_bench_08.png",
+    "matched_txn": "TXN_0000008",
+    "skew": 0.4,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Best Buy Electronics",
+    "invoice_no": "INV-2026-B1009",
+    "date": "2026-01-10",
+    "items": [
+      {
+        "desc": "Procurement Item #9",
+        "qty": 1,
+        "price": 211.5,
+        "total": 211.5
+      }
+    ],
+    "subtotal": 211.5,
+    "tax": 16.92,
+    "total": 228.42,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_09",
+    "filename": "inv_bench_09.png",
+    "matched_txn": "TXN_0000009",
+    "skew": 0.8,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Target Store #104",
+    "invoice_no": "INV-2026-B1010",
+    "date": "2026-01-11",
+    "items": [
+      {
+        "desc": "Procurement Item #10",
+        "qty": 1,
+        "price": 230.0,
+        "total": 230.0
+      }
+    ],
+    "subtotal": 230.0,
+    "tax": 18.4,
+    "total": 248.4,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_10",
+    "filename": "inv_bench_10.png",
+    "matched_txn": "TXN_0000010",
+    "skew": -0.8,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Walmart Supercenter",
+    "invoice_no": "INV-2026-B1011",
+    "date": "2026-01-12",
+    "items": [
+      {
+        "desc": "Procurement Item #11",
+        "qty": 1,
+        "price": 248.5,
+        "total": 248.5
+      }
+    ],
+    "subtotal": 248.5,
+    "tax": 19.88,
+    "total": 268.38,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_11",
+    "filename": "inv_bench_11.png",
+    "matched_txn": "TXN_0000011",
+    "skew": -0.4,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Trader Joe's",
+    "invoice_no": "INV-2026-B1012",
+    "date": "2026-01-13",
+    "items": [
+      {
+        "desc": "Procurement Item #12",
+        "qty": 1,
+        "price": 267.0,
+        "total": 267.0
+      }
+    ],
+    "subtotal": 267.0,
+    "tax": 21.36,
+    "total": 288.36,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_12",
+    "filename": "inv_bench_12.png",
+    "matched_txn": "TXN_0000012",
+    "skew": 0.0,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Delta Airlines",
+    "invoice_no": "INV-2026-B1013",
+    "date": "2026-01-14",
+    "items": [
+      {
+        "desc": "Procurement Item #13",
+        "qty": 1,
+        "price": 285.5,
+        "total": 285.5
+      }
+    ],
+    "subtotal": 285.5,
+    "tax": 22.84,
+    "total": 308.34,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_13",
+    "filename": "inv_bench_13.png",
+    "matched_txn": "TXN_0000013",
+    "skew": 0.4,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Marriott Hotels",
+    "invoice_no": "INV-2026-B1014",
+    "date": "2026-01-15",
+    "items": [
+      {
+        "desc": "Procurement Item #14",
+        "qty": 1,
+        "price": 304.0,
+        "total": 304.0
+      }
+    ],
+    "subtotal": 304.0,
+    "tax": 24.32,
+    "total": 328.32,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_14",
+    "filename": "inv_bench_14.png",
+    "matched_txn": "TXN_0000014",
+    "skew": 0.8,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "B&H Photo Video",
+    "invoice_no": "INV-2026-B1015",
+    "date": "2026-01-16",
+    "items": [
+      {
+        "desc": "Procurement Item #15",
+        "qty": 1,
+        "price": 322.5,
+        "total": 322.5
+      }
+    ],
+    "subtotal": 322.5,
+    "tax": 25.8,
+    "total": 348.3,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_15",
+    "filename": "inv_bench_15.png",
+    "matched_txn": "TXN_0000015",
+    "skew": -0.8,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Kroger Supermarket",
+    "invoice_no": "INV-2026-B1016",
+    "date": "2026-01-17",
+    "items": [
+      {
+        "desc": "Procurement Item #16",
+        "qty": 1,
+        "price": 341.0,
+        "total": 341.0
+      }
+    ],
+    "subtotal": 341.0,
+    "tax": 27.28,
+    "total": 368.28,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_16",
+    "filename": "inv_bench_16.png",
+    "matched_txn": "TXN_0000016",
+    "skew": -0.4,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Starbucks Coffee",
+    "invoice_no": "INV-2026-B1017",
+    "date": "2026-01-18",
+    "items": [
+      {
+        "desc": "Procurement Item #17",
+        "qty": 1,
+        "price": 359.5,
+        "total": 359.5
+      }
+    ],
+    "subtotal": 359.5,
+    "tax": 28.76,
+    "total": 388.26,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_17",
+    "filename": "inv_bench_17.png",
+    "matched_txn": "TXN_0000017",
+    "skew": 0.0,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Zara Retail",
+    "invoice_no": "INV-2026-B1018",
+    "date": "2026-01-19",
+    "items": [
+      {
+        "desc": "Procurement Item #18",
+        "qty": 1,
+        "price": 378.0,
+        "total": 378.0
+      }
+    ],
+    "subtotal": 378.0,
+    "tax": 30.24,
+    "total": 408.24,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_18",
+    "filename": "inv_bench_18.png",
+    "matched_txn": "TXN_0000018",
+    "skew": 0.4,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Best Buy Electronics",
+    "invoice_no": "INV-2026-B1019",
+    "date": "2026-01-20",
+    "items": [
+      {
+        "desc": "Procurement Item #19",
+        "qty": 1,
+        "price": 396.5,
+        "total": 396.5
+      }
+    ],
+    "subtotal": 396.5,
+    "tax": 31.72,
+    "total": 428.22,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_19",
+    "filename": "inv_bench_19.png",
+    "matched_txn": "TXN_0000019",
+    "skew": 0.8,
+    "tamper_tax": false
+  },
+  {
+    "vendor": "Target Store #104",
+    "invoice_no": "INV-2026-B1020",
+    "date": "2026-01-21",
+    "items": [
+      {
+        "desc": "Procurement Item #20",
+        "qty": 1,
+        "price": 415.0,
+        "total": 415.0
+      }
+    ],
+    "subtotal": 415.0,
+    "tax": 33.2,
+    "total": 448.2,
+    "bounding_boxes": {
+      "vendor": [
+        60,
+        50,
+        400,
+        75
+      ],
+      "invoice_no": [
+        60,
+        145,
+        300,
+        165
+      ],
+      "date": [
+        450,
+        145,
+        650,
+        165
+      ],
+      "tax": [
+        430,
+        650,
+        740,
+        675
+      ],
+      "total": [
+        430,
+        700,
+        740,
+        730
+      ]
+    },
+    "id": "INV_BENCH_20",
+    "filename": "inv_bench_20.png",
+    "matched_txn": "TXN_0000020",
+    "skew": -0.8,
+    "tamper_tax": false
+  }
+]

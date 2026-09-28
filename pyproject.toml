@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finguard-ai"
+version = "0.1.0"
+description = "FinGuard AI: End-to-end fraud detection and investigation platform"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "FinGuard Engineering Team", email = "engineering@finguard.ai" }
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+exclude = [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "build",
+    "dist",
+    "data",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+ignore = ["E501", "B008"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short"
+pythonpath = ["."]
