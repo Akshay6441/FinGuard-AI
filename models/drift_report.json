@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-09-28 15:21:33",
+  "overall_status": "HEALTHY",
+  "requires_retraining": false,
+  "features": {
+    "amount": {
+      "psi": 0.0027,
+      "status": "HEALTHY",
+      "baseline_mean": 77.1,
+      "inference_mean": 83.66,
+      "baseline_std": 184.52,
+      "inference_std": 223.15
+    },
+    "distance_from_home_km": {
+      "psi": 0.0039,
+      "status": "HEALTHY",
+      "baseline_mean": 96.97,
+      "inference_mean": 97.01,
+      "baseline_std": 322.7,
+      "inference_std": 326.73
+    }
+  }
+}

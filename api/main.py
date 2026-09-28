@@ -79,18 +79,18 @@ def verify_api_key(x_api_key: Optional[str] = Header(None)) -> bool:
 
 # Schemas
 class TransactionPayload(BaseModel):
-    transaction_id: str = Field(..., example="TXN_0099881")
-    user_id: str = Field(..., example="USR_0102")
-    timestamp: str = Field(..., example="2026-01-20 14:30:00")
-    amount: float = Field(..., example=1250.00)
-    merchant_name: str = Field(..., example="Apple Store Fifth Ave")
-    merchant_category: str = Field(..., example="ELECTRONICS")
-    mcc: str = Field(..., example="5732")
-    device_id: str = Field(..., example="DEV_UNKNOWN_9921")
-    country: str = Field(..., example="NG")
-    distance_from_home_km: float = Field(..., example=3400.0)
-    is_new_device: int = Field(0, example=1)
-    is_foreign_country: int = Field(0, example=1)
+    transaction_id: str = Field(..., json_schema_extra={"example": "TXN_0099881"})
+    user_id: str = Field(..., json_schema_extra={"example": "USR_0102"})
+    timestamp: str = Field(..., json_schema_extra={"example": "2026-01-20 14:30:00"})
+    amount: float = Field(..., json_schema_extra={"example": 1250.00})
+    merchant_name: str = Field(..., json_schema_extra={"example": "Apple Store Fifth Ave"})
+    merchant_category: str = Field(..., json_schema_extra={"example": "ELECTRONICS"})
+    mcc: str = Field(..., json_schema_extra={"example": "5732"})
+    device_id: str = Field(..., json_schema_extra={"example": "DEV_UNKNOWN_9921"})
+    country: str = Field(..., json_schema_extra={"example": "NG"})
+    distance_from_home_km: float = Field(..., json_schema_extra={"example": 3400.0})
+    is_new_device: int = Field(0, json_schema_extra={"example": 1})
+    is_foreign_country: int = Field(0, json_schema_extra={"example": 1})
 
 
 class ScoreResponse(BaseModel):

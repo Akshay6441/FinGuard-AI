@@ -1,0 +1,12 @@
+{
+  "num_cases_evaluated": 30,
+  "agent_decision_accuracy": 1.0,
+  "correct_dispositions": 30,
+  "total_failures": 0,
+  "latency_stats": {
+    "mean_latency_seconds": 0.035,
+    "p95_latency_seconds": 0.049,
+    "meets_sub_5s_target": true
+  },
+  "failure_analysis": []
+}

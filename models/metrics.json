@@ -1,0 +1,53 @@
+{
+  "model_comparison": {
+    "logistic_regression": {
+      "pr_auc": 0.9183,
+      "roc_auc": 0.9597
+    },
+    "random_forest": {
+      "pr_auc": 0.9912,
+      "roc_auc": 0.9997
+    },
+    "finguard_champion_blended": {
+      "pr_auc": 0.9958,
+      "roc_auc": 0.9999,
+      "recall_at_85_precision": 0.9872,
+      "optimal_threshold": 0.08,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571
+    }
+  },
+  "cost_optimization": {
+    "optimal_threshold": 0.08,
+    "min_cost": 390.0,
+    "naive_05_cost": 1075.0,
+    "cost_savings": 685.0,
+    "cost_savings_pct": 63.72
+  },
+  "global_shap_importances": {
+    "distance_from_home_km": 0.4953,
+    "amount_to_mean_ratio": 0.1868,
+    "amount_z_score": 0.1791,
+    "amount": 0.1302,
+    "category_risk_score": 0.1287,
+    "is_new_device": 0.1269,
+    "is_foreign_country": 0.0766,
+    "hour_sin": 0.0118,
+    "amount_sum_24h": 0.0115,
+    "hour_cos": 0.0051,
+    "hour_of_day": 0.0048,
+    "is_weekend": 0.0023,
+    "velocity_24h": 0.0021,
+    "high_risk_mcc": 0.0006,
+    "velocity_1h": 0.0,
+    "is_night": 0.0
+  },
+  "dataset_split": {
+    "total_transactions": 18000,
+    "train_count": 12600,
+    "val_count": 2700,
+    "test_count": 2700,
+    "test_fraud_count": 78
+  }
+}

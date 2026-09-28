@@ -12,18 +12,7 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 
-# Data & models
-*.pkl
-*.joblib
-*.parquet
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-models/*.joblib
-models/*.json
-
-# MLflow & logs
+# MLflow & temporary logs
 mlruns/
 *.log
 
@@ -32,3 +21,7 @@ mlruns/
 Thumbs.db
 .vscode/
 .idea/
+
+# Generated runtime reports
+data/reports/*.pdf
+
